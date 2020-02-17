@@ -26,5 +26,5 @@ jobs:
         AIO_CNA_TVMURL: https://adobeio.adobeioruntime.net/apis/tvm/
       run: |
         npm install -g @adobe/aio-cli
-        npm link
+        npm run test
         aio app deploy -v
